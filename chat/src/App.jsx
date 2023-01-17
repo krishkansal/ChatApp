@@ -1,8 +1,8 @@
 import React from "react";
 import './App.css';
 import {BrowserRouter,Routes,Route,} from "react-router-dom";
-import Join from "./component/Join/join";
-
+import Join from "./component/Join/Join";
+import Chat from "./component/Chat/Chat";
 
 
 
@@ -13,7 +13,8 @@ function App() {
        <BrowserRouter>
       <Routes>
         <Route path="/" element={<Join />} />
-        {/* <Route path="/" component={Join}/> */}
+        <Route path="/chat" element={<Chat />} />
+       
       </Routes>
     </BrowserRouter>
     </>
