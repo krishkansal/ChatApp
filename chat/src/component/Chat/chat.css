@@ -1,0 +1,66 @@
+.chatPage{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer{
+    background-color: white;
+    height: 60%;
+    width: 50%;
+}
+
+.header{
+    background-color: crimson;
+    height: 15%;
+}
+
+.chatBox{
+border: 0.2vmax solid black;
+height: 70%;
+box-sizing: border-box;
+}
+
+.inputBox{
+  
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.sendBtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 21%;
+    cursor: pointer;
+    transition: all 0.3s;
+  
+}
+
+.sendBtn>img{
+    width: 3vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover{
+     background-color: rgb(156,13,42);
+}
+
+.sendBtn:hover img{
+    transform: translate(10px);
+}
